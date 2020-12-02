@@ -11,7 +11,7 @@ int main(void) {
     int min, max;
     char c;
 
-    while (EOF != scanf("%d-%d %c: %64[^\n]", &min, &max, &c, pass)) {
+    while (EOF != scanf("%d-%d %c: %64s\n", &min, &max, &c, pass)) {
         int count = 0;
         for (char* p = pass; *p; p++) {
             if (*p == c) {
