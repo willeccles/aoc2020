@@ -45,5 +45,7 @@ int main(void) {
     printf("Part 1: %ld\n", count1);
     printf("Part 2: %ld\n", count2);
 
+    free(line);
+
     return 0;
 }
